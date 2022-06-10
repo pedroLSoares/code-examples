@@ -20,6 +20,13 @@ function parseBase64ToString(base64Text) {
   console.log(Buffer.from(base64Text, "base64").toString());
 }
 
+<<<<<<< HEAD
+=======
+function convert(){
+  return
+}
+
+>>>>>>> test
 module.exports = {
   parseStringToBase64,
   parseBase64ToString,
