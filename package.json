@@ -1,0 +1,21 @@
+{
+  "name": "code-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "convert-base64.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "encode64": "npx run-func convert-base64.js parseStringToBase64",
+    "decode64": "npx run-func convert-base64.js parseBase64ToString"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.0.5",
+    "excel4node": "^1.7.2",
+    "json2csv": "^5.0.6",
+    "run-func": "^1.0.5",
+    "xlsx": "^0.17.5"
+  }
+}
